@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>TêGotin</title>
+        <title>İnşaat ve İş İlanları</title>
         <meta
           key="viewport"
           name="viewport"
@@ -15,12 +15,12 @@ const Layout = ({ children }) => {
         />
         <meta
           name="description"
-          content="Cihekî hûn ramanê xwe parve bikin.."
+          content="İnşaat ve diğer iş ilanları "
         />
-        <meta property="og:title" content="TêGotin" />
+        <meta property="og:title" content="İş İlanları" />
         <meta
           property="og:description"
-          content="Cihekî hûn ramanê xwe parve bikin.."
+          content="İnşaat ve diğer iş ilanları "
         />
         <meta
           property="og:image"
