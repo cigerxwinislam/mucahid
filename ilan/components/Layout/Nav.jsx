@@ -77,7 +77,7 @@ const UserMenu = ({ user, mutate }) => {
               <a className={styles.item}>Profil</a>
             </Link>
             <Link passHref href="/settings">
-              <a className={styles.item}>Taybetmendîyên</a>
+              <a className={styles.item}>Ayarlar</a>
             </Link>
             <div className={styles.item} style={{ cursor: 'auto' }}>
               <Container alignItems="center">
