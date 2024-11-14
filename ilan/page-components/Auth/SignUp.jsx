@@ -79,7 +79,7 @@ const SignUp = () => {
           />
           <Spacer size={0.75} axis="vertical" />
           <Container alignItems="center">
-            <p className={styles.subtitle}>Derbarê We'de</p>
+            <p className={styles.subtitle}>Hakkınızda</p>
             <div className={styles.seperator} />
           </Container>
           <Input

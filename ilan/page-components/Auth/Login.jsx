@@ -38,9 +38,9 @@ const Login = () => {
           }),
         });
         mutate({ user: response.user }, false);
-        toast.success('You have been logged in.');
+        toast.success('Başarılı giriş.');
       } catch (e) {
-        toast.error('Incorrect email or password.');
+        toast.error('Bilgilerinizde hata var.');
       } finally {
         setIsLoading(false);
       }
@@ -51,7 +51,7 @@ const Login = () => {
   return (
     <Wrapper className={styles.root}>
       <div className={styles.main}>
-        <h1 className={styles.title}>Têketin</h1>
+        <h1 className={styles.title}>Giriş</h1>
         <form onSubmit={onSubmit}>
           <Input
             ref={emailRef}
@@ -67,8 +67,8 @@ const Login = () => {
             ref={passwordRef}
             htmlType="password"
             autoComplete="current-password"
-            placeholder="Password"
-            ariaLabel="Password"
+            placeholder="Şifre"
+            ariaLabel="Şifre"
             size="large"
             required
           />

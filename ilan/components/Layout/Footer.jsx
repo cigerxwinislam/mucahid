@@ -13,12 +13,14 @@ const Footer = () => {
     <footer className={styles.footer}>
       <Wrapper>
         <Text color="accents-7">
-          Bi Amadekarîya{' '}
+       
+       İnşaat ve diğer İş ilanları   {' '}
+          Her türlü işiniz için 
           <TextLink href="https://yekazadsoftwarecenter.vercel.app/" color="link">
-            Yekazad Software Center
+            
+            powered by
           </TextLink>
-          ê |..
-          <span> </span>Ji kerema xwe re tenê bi kurdî û dûrî neteweperwerîyê ye binivîsin...|
+          <span> </span>|
         </Text>
         <Spacer size={1} axis="vertical" />
         <ThemeSwitcher />

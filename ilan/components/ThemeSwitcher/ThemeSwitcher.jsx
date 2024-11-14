@@ -12,9 +12,9 @@ const ThemeSwitcher = () => {
   );
   return (
     <select value={theme} onChange={onChange} className={styles.select}>
-      <option value="system">Pergal</option>
-      <option value="dark">Reş</option>
-      <option value="light">Spî</option>
+      <option value="system">Sistem teması</option>
+      <option value="dark">Koyu</option>
+      <option value="light">Aydınlık</option>
     </select>
   );
 };
