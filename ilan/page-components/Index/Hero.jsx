@@ -9,8 +9,8 @@ const Hero = () => {
       <div>
         <h1 className={styles.title}>
           <span className={styles.nextjs}>İş</span>
-          <span className={styles.mongodb}>İlanları</span>
-          <span>....</span>
+          <span className={styles.mongodb}>İlanı</span>
+          <span>Ver</span>
         </h1>
         <Container justifyContent="center" className={styles.buttons}>
           <Container>
