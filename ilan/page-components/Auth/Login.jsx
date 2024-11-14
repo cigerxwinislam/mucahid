@@ -80,7 +80,7 @@ const Login = () => {
             size="large"
             loading={isLoading}
           >
-            Üye olun 
+            Giriş Yap
           </Button>
           <Spacer size={0.25} axis="vertical" />
           <Link href="/forget-password" passHref>
