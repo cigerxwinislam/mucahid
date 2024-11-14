@@ -38,7 +38,7 @@ const SignUp = () => {
           }),
         });
         mutate({ user: response.user }, false);
-        toast.success('Hûn bûn encam serxere');
+        toast.success('Kayıt oldunuz');
         router.replace('/feed');
       } catch (e) {
         toast.error(e.message);
