@@ -8,9 +8,9 @@ const Hero = () => {
     <Wrapper>
       <div>
         <h1 className={styles.title}>
-          <span className={styles.nextjs}></span>
-          <span className={styles.mongodb}></span>
-          <span></span>
+          <span className={styles.nextjs}>İş</span>
+          <span className={styles.mongodb}>İlanları</span>
+          <span>....</span>
         </h1>
         <Container justifyContent="center" className={styles.buttons}>
           <Container>
@@ -25,7 +25,7 @@ const Hero = () => {
               type="secondary"
               className={styles.button}
             >
-              İletişim
+              Kullanım Koşulları
             </ButtonLink>
           </Container>
         </Container>
