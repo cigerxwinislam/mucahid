@@ -79,20 +79,20 @@ const Poster = () => {
   return (
     <Wrapper>
       <div className={styles.root}>
-        <h3 className={styles.heading}>Ramanê xwe ji civak ê re parve bikin.. .📗 Dembaş 🌲</h3>
+        <h3 className={styles.heading}>İlan bilgilerini giriniz </h3>
         {loading ? (
           <LoadingDots>Amade dibe..</LoadingDots>
         ) : data?.user ? (
           <PosterInner user={data.user} />
         ) : (
           <Text color="secondary">
-            Jibo binivîsin {' '}
+            ilan vermek {' '}
             <Link href="/login" passHref>
               <TextLink color="link" variant="highlight">
-              tevlê   
+              için   
               </TextLink>
             </Link>{' '}
-           bibin
+           üye olun
           </Text>
         )}
       </div>

@@ -38,7 +38,7 @@ const SignUp = () => {
           }),
         });
         mutate({ user: response.user }, false);
-        toast.success('Hûn bûn encam serxere');
+        toast.success('Kayıt oldunuz');
         router.replace('/feed');
       } catch (e) {
         toast.error(e.message);
@@ -52,10 +52,10 @@ const SignUp = () => {
   return (
     <Wrapper className={styles.root}>
       <div className={styles.main}>
-        <h1 className={styles.title}>Tevlê Bin Niha!</h1>
+        <h1 className={styles.title}>Şimdi Üye Olun!</h1>
         <form onSubmit={onSubmit}>
           <Container alignItems="center">
-            <p className={styles.subtitle}>Têketina We</p>
+            <p className={styles.subtitle}>Giriş </p>
             <div className={styles.seperator} />
           </Container>
           <Input
@@ -72,7 +72,7 @@ const SignUp = () => {
             ref={passwordRef}
             htmlType="password"
             autoComplete="new-password"
-            placeholder="Password"
+            placeholder="Şifre"
             ariaLabel="Password"
             size="large"
             required
@@ -85,7 +85,7 @@ const SignUp = () => {
           <Input
             ref={usernameRef}
             autoComplete="username"
-            placeholder="Hûnê bi vî navî xwîya bin"
+            placeholder="Kullanıcı adı"
             ariaLabel="Username"
             size="large"
             required
@@ -94,8 +94,8 @@ const SignUp = () => {
           <Input
             ref={nameRef}
             autoComplete="name"
-            placeholder="Nav"
-            ariaLabel="Nav"
+            placeholder="Adınız"
+            ariaLabel="Ad"
             size="large"
             required
           />
@@ -107,14 +107,14 @@ const SignUp = () => {
             size="large"
             loading={isLoading}
           >
-            Bibe Endam
+            Üye olun
           </Button>
         </form>
       </div>
       <div className={styles.footer}>
         <Link href="/login" passHref>
           <TextLink color="link" variant="highlight">
-            Jixwe Hûn Endam in? Têketin
+            Zaten üye misiniz? Giriş 
           </TextLink>
         </Link>
       </div>

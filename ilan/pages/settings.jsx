@@ -5,7 +5,7 @@ const SettingPage = () => {
   return (
     <>
       <Head>
-        <title>Taybetmendîyên</title>
+        <title>Ayarlar</title>
       </Head>
       <Settings />
     </>

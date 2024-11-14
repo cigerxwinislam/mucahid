@@ -1,3 +1,5 @@
+//Elhamdülillah
+
 import { Avatar } from '@/components/Avatar';
 import { Button, ButtonLink } from '@/components/Button';
 import { ThemeSwitcher } from '@/components/ThemeSwitcher';
@@ -47,7 +49,7 @@ const UserMenu = ({ user, mutate }) => {
       await fetcher('/api/auth', {
         method: 'DELETE',
       });
-      toast.success('Hûn ji applikasyonê derketin');
+      toast.success('Çıkış Yaptınız');
       mutate({ user: null });
     } catch (e) {
       toast.error(e.message);
@@ -72,20 +74,20 @@ const UserMenu = ({ user, mutate }) => {
         {visible && (
           <div className={styles.menu}>
             <Link passHref href={`/user/${user.username}`}>
-              <a className={styles.item}>Profila We</a>
+              <a className={styles.item}>Profil</a>
             </Link>
             <Link passHref href="/settings">
-              <a className={styles.item}>Taybetmendîyên</a>
+              <a className={styles.item}>Ayarlar</a>
             </Link>
             <div className={styles.item} style={{ cursor: 'auto' }}>
               <Container alignItems="center">
-                <span>Pergal</span>
+                <span>Tema</span>
                 <Spacer size={0.5} axis="horizontal" />
                 <ThemeSwitcher />
               </Container>
             </div>
             <button onClick={onSignOut} className={styles.item}>
-              Derkeve
+              Çıkış yap 
             </button>
           </div>
         )}
@@ -106,7 +108,7 @@ const Nav = () => {
           justifyContent="space-between"
         >
           <Link href="/">
-            <a className={styles.logo}>TêGotin</a>
+            <a className={styles.logo}>İş ilanları</a>
           </Link>
           <Container>
             {user ? (
@@ -122,13 +124,13 @@ const Nav = () => {
                     variant="ghost"
                     color="link"
                   >
-                    Têketin           
+                    Giriş Yap         
                      </ButtonLink>
                 </Link>
                 <Spacer axis="horizontal" size={0.25} />
                 <Link passHref href="/sign-up">
                   <Button size="small" type="success">
-                    Bibe Endam
+                    Üye ol 
                   </Button>
                 </Link>
               </>

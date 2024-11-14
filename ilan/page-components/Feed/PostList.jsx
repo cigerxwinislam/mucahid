@@ -30,7 +30,7 @@ const PostList = () => {
         ))}
         <Container justifyContent="center">
           {isReachingEnd ? (
-            <Text color="secondary">Xeynî van têgotin tune vê demê</Text>
+            <Text color="secondary">Başka ilan bulunamadı.</Text>
           ) : (
             <Button
               variant="ghost"
@@ -38,7 +38,7 @@ const PostList = () => {
               loading={isLoadingMore}
               onClick={() => setSize(size + 1)}
             >
-              Zêde
+              Daha fazla 
             </Button>
           )}
         </Container>
