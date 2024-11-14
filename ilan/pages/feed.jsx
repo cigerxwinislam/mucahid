@@ -5,7 +5,7 @@ const FeedPage = () => {
   return (
     <>
       <Head>
-        <title>Têgotin</title>
+        <title>İnşaat ve diğer İş ilanları</title>
       </Head>
       <Feed />
     </>
