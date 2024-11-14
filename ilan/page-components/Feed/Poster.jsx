@@ -28,7 +28,7 @@ const PosterInner = ({ user }) => {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ content: contentRef.current.value }),
         });
-        toast.success('Serkeftin');
+        toast.success('ilan ');
         contentRef.current.value = '';
         // refresh post lists
         mutate();
@@ -48,11 +48,24 @@ const PosterInner = ({ user }) => {
         <Input
           ref={contentRef}
           className={styles.input}
-          placeholder={`Çi difikirî, ${user.name}?`}
-          ariaLabel={`Hişê we de çi heye, ${user.name}?`}
+          placeholder={` yeni ilan oluştur, ${user.name}?`}
+          ariaLabel={`iş veya ürün ilanı ver, ${user.name}?`}
+        />
+
+            <Input
+          ref={contentRef}
+          className={styles.input}
+          placeholder={` yeni ilan oluştur, ${user.name}?`}
+          ariaLabel={`iş veya ürün ilanı ver, ${user.name}?`}
+        />
+            <Input
+          ref={contentRef}
+          className={styles.input}
+          placeholder={` yeni ilan oluştur, ${user.name}?`}
+          ariaLabel={`iş veya ürün ilanı ver, ${user.name}?`}
         />
         <Button type="success" loading={isLoading}>
-          Parvebike
+          ilan ver
         </Button>
       </Container>
     </form>
