@@ -49,7 +49,7 @@ const ForgetPasswordIndex = () => {
           </>
         ) : (
           <>
-            <h1 className={styles.title}>Forget Password</h1>
+            <h1 className={styles.title}>Şifremi Unuttum</h1>
             <p className={styles.subtitle}>
               Email adresinizi girin. Şifrenizi yenilemek için size e-mail göndereceğiz.
             </p>
@@ -80,7 +80,7 @@ const ForgetPasswordIndex = () => {
         <Spacer size={0.25} axis="vertical" />
         <Link href="/login" passHref>
           <ButtonLink type="success" size="large" variant="ghost">
-            Girişe.dön
+            Girişe dön
           </ButtonLink>
         </Link>
       </div>
