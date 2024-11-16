@@ -10,7 +10,7 @@ export const fetcher = (...args) => {
     if (res.ok) {
       return payload;
     } else {
-      return Promise.reject(payload.error || new Error('Pirsgirek derket'));
+      return Promise.reject(payload.error || new Error('Bir sorun çıktı, sorunu çözüp tekrar deneyiniz'));
     }
   });
 };
