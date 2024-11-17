@@ -15,8 +15,6 @@ import Link from 'next/link';
 import { useCallback, useRef, useState } from 'react';
 import toast from 'react-hot-toast';
 import styles from './Poster.module.css';
-import { InputGroup } from 'react-bootstrap';
-import InputGroupText from 'react-bootstrap/esm/InputGroupText';
 
 const PosterInner = ({ user }) => {
   const contentRef = useRef();
