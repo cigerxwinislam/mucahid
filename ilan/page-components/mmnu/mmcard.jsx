@@ -14,7 +14,7 @@ function MmCard(props) {
         
         {props.nivis}
         </Card.Text>
-        <Button variant="primary"> </Button>
+        <Button variant="primary"> Tüm ilanlara bak</Button>
       </Card.Body>
     </Card>
   );
