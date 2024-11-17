@@ -1,3 +1,7 @@
+//
+
+
+
 import { Avatar } from '@/components/Avatar';
 import { Button } from '@/components/Button';
 import { Input } from '@/components/Input';
@@ -11,6 +15,8 @@ import Link from 'next/link';
 import { useCallback, useRef, useState } from 'react';
 import toast from 'react-hot-toast';
 import styles from './Poster.module.css';
+import { InputGroup } from 'react-bootstrap';
+import InputGroupText from 'react-bootstrap/esm/InputGroupText';
 
 const PosterInner = ({ user }) => {
   const contentRef = useRef();
@@ -41,24 +47,70 @@ const PosterInner = ({ user }) => {
     [mutate]
   );
 
-  return (
+  return (<div>
+        
     <form onSubmit={onSubmit}>
       <Container className={styles.poster}>
         <Avatar size={40} username={user.username} url={user.profilePicture} />
         <Input
           ref={contentRef}
           className={styles.input}
-          placeholder={` yeni ilan oluştur, ${user.name}?`}
+          placeholder={` Yayınlamak istediğin ilanın adı,`}
           ariaLabel={`iş veya ürün ilanı ver, ${user.name}?`}
         />
+
 
  
         
         <Button type="success" loading={isLoading}>
-          ilan ver
+          ilan Ver
         </Button>
       </Container>
-    </form>
+
+
+
+
+
+
+
+
+      <Container className={styles.poster}>
+        <Input
+          ref={contentRef}
+          className={styles.input}
+          placeholder={` kategorisi `}
+          ariaLabel={`iş veya ürün ilanı ver, `}
+        />
+
+      </Container>
+
+
+
+
+
+
+      <Container className={styles.poster}>
+        <Input
+          ref={contentRef}
+          className={styles.input}
+          placeholder={` fiyatı, `}
+          ariaLabel={`iş veya ürün ilanı ver,`}
+        />
+
+      </Container>
+      
+      <Container className={styles.poster}>
+        <Input 
+          ref={contentRef}
+          className={styles.input}
+          placeholder={` Açıklama`}
+          ariaLabel={`iş veya ürün ilanı ver, ${user.name}?`}
+        />
+
+      </Container>
+      
+      
+    </form></div>
   );
 };
 
@@ -66,12 +118,45 @@ const Poster = () => {
   const { data, error } = useCurrentUser();
   const loading = !data && !error;
 
-  return (
+  return (<div>
+    <Wrapper>
+      
+      <div style={{height:155}} className={styles.root}>
+        <h3 className={styles.heading}>İlan Arayın</h3>
+        {loading ? (
+          <LoadingDots>Bekleyiniz..</LoadingDots>
+        ) : data?.user ? (
+
+          <Container className={styles.poster}>
+          <Input
+            
+            className={styles.input}
+            placeholder={`Aramak istediğiniz ilan adını yazın`}
+            ariaLabel={`iş veya ürün ilanı ver, `}
+          />
+   <Button type="success" >
+          ilan ara
+        </Button>
+        </Container>        ) : (
+          <Text color="secondary">
+            ilan vermek {' '}
+            <Link href="/login" passHref>
+              <TextLink color="link" variant="highlight">
+              için   
+              </TextLink>
+            </Link>{' '}
+           üye olun
+          </Text>
+        )}
+      </div>
+    </Wrapper>
+<br></br>
+
     <Wrapper>
       <div className={styles.root}>
-        <h3 className={styles.heading}>İlan bilgilerini giriniz </h3>
+        <h3 className={styles.heading}>Yeni ilan yayınlayın  {data.user.name}</h3>
         {loading ? (
-          <LoadingDots>Amade dibe..</LoadingDots>
+          <LoadingDots>Bekleyiniz..</LoadingDots>
         ) : data?.user ? (
           <PosterInner user={data.user} />
         ) : (
@@ -87,7 +172,7 @@ const Poster = () => {
         )}
       </div>
     </Wrapper>
-  );
+    </div>  );
 };
 
 export default Poster;
