@@ -123,7 +123,7 @@ const Poster = () => {
         <h3 className={styles.heading}>İlan Arayın</h3>
         {loading ? (
           <LoadingDots>Bekleyiniz..</LoadingDots>
-        ) : data?.user ? (
+        
 
           <Container className={styles.poster}>
           <Input
