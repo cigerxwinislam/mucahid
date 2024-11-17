@@ -152,7 +152,7 @@ const Poster = () => {
 
     <Wrapper>
       <div className={styles.root}>
-        <h3 className={styles.heading}>Yeni ilan yayınlayın  {data.user.name}</h3>
+        <h3 className={styles.heading}>Yeni ilan yayınlayın  </h3>
         {loading ? (
           <LoadingDots>Bekleyiniz..</LoadingDots>
         ) : data?.user ? (
