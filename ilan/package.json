@@ -1,7 +1,7 @@
 {
-  "name": "tegotin",
+  "name": "ilan",
   "version": "1.0.0",
-  "description": "Ferhenga Agiriye ",
+  "description": "Kargeh",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
