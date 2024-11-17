@@ -31,7 +31,7 @@ const UserPosts = ({ user }) => {
         ))}
         <Container justifyContent="center">
           {isReachingEnd ? (
-            <Text color="secondary">Xeynî van Têgotin nehatin dîtin</Text>
+            <Text color="secondary">Başka ilan bulunamadı </Text>
           ) : (
             <Button
               variant="ghost"
@@ -39,7 +39,7 @@ const UserPosts = ({ user }) => {
               loading={isLoadingMore}
               onClick={() => setSize(size + 1)}
             >
-              Zêde
+              Daha fazla 
             </Button>
           )}
         </Container>

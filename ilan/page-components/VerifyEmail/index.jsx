@@ -13,13 +13,13 @@ export const VerifyEmail = ({ valid }) => {
           color={valid ? 'success-light' : 'secondary'}
         >
           {valid
-            ? 'Spas maile we rastdar bû .'
-            : 'Eva linka vala ye.Nû ve bikin.'}
+            ? 'Emailiniz doğrulanmıştır.'
+            : 'Bu link boş, yeniden deneyin .'}
         </Text>
         <Spacer size={4} axis="vertical" />
         <Link href="/" passHref>
           <ButtonLink variant="ghost" type="success" size="large">
-            Here Malperê
+            Anasayfaya dön
           </ButtonLink>
         </Link>
       </Container>

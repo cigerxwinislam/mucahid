@@ -24,7 +24,7 @@ const CommentList = ({ post }) => {
       ))}
       <Container justifyContent="center">
         {isReachingEnd ? (
-          <Text color="secondary">Xeynî van şîrove nehatin dîtin </Text>
+          <Text color="secondary">Başka yorum yok  </Text>
         ) : (
           <Button
             variant="ghost"
@@ -32,7 +32,7 @@ const CommentList = ({ post }) => {
             loading={isLoadingMore}
             onClick={() => setSize(size + 1)}
           >
-            Zêde
+            Daha fazla 
           </Button>
         )}
       </Container>

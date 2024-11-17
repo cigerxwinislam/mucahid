@@ -23,7 +23,7 @@ passport.use(
       const db = await getMongoDb();
       const user = await findUserWithEmailAndPassword(db, email, password);
       if (user) done(null, user);
-      else done(null, false, { message: 'Email or password is incorrect' });
+      else done(null, false, { message: 'Email veya şifre yanlış ' });
     }
   )
 );
