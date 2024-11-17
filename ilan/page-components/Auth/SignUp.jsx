@@ -55,7 +55,7 @@ const SignUp = () => {
         <h1 className={styles.title}>Şimdi Üye Olun!</h1>
         <form onSubmit={onSubmit}>
           <Container alignItems="center">
-            <p className={styles.subtitle}>Giriş </p>
+            <p className={styles.subtitle}>Kayıt Olun </p>
             <div className={styles.seperator} />
           </Container>
           <Input

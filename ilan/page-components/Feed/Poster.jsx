@@ -52,18 +52,8 @@ const PosterInner = ({ user }) => {
           ariaLabel={`iş veya ürün ilanı ver, ${user.name}?`}
         />
 
-            <Input
-          ref={contentRef}
-          className={styles.input}
-          placeholder={` yeni ilan oluştur, ${user.name}?`}
-          ariaLabel={`iş veya ürün ilanı ver, ${user.name}?`}
-        />
-            <Input
-          ref={contentRef}
-          className={styles.input}
-          placeholder={` yeni ilan oluştur, ${user.name}?`}
-          ariaLabel={`iş veya ürün ilanı ver, ${user.name}?`}
-        />
+ 
+        
         <Button type="success" loading={isLoading}>
           ilan ver
         </Button>
