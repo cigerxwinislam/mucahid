@@ -121,8 +121,7 @@ const Poster = () => {
       
       <div style={{height:155}} className={styles.root}>
         <h3 className={styles.heading}>İlan Arayın</h3>
-        {loading ? (
-          <LoadingDots>Bekleyiniz..</LoadingDots>
+        
         
 
           <Container className={styles.poster}>
@@ -135,17 +134,11 @@ const Poster = () => {
    <Button type="success" >
           ilan ara
         </Button>
-        </Container>        ) : (
-          <Text color="secondary">
-            ilan vermek {' '}
-            <Link href="/login" passHref>
-              <TextLink color="link" variant="highlight">
-              için   
-              </TextLink>
-            </Link>{' '}
-           üye olun
-          </Text>
-        )}
+        </Container>     
+         
+      
+         
+     
       </div>
     </Wrapper>
 <br></br>
