@@ -8,6 +8,10 @@ const Hero = () => {
     <Wrapper>
       <div>
         <a>Arabalar</a>
+        <a>İş ilanlary</a>
+        <a>Atölye</a>
+        <a>Emlak</a>
+        <a>Diğer</a>
         <Container justifyContent="center" className={styles.buttons}>
           <Container>
             <Link passHref href="/feed">
