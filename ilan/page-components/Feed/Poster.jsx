@@ -53,7 +53,7 @@ const PosterInner = ({ user }) => {
         <Input
           ref={contentRef}
           className={styles.input}
-          placeholder={` Yayınlamak istediğin ilanın adı,`}
+          placeholder={` Yayınlamak istediğin ilanın adı, özellikleri ve açıklaması`}
           ariaLabel={`iş veya ürün ilanı ver, ${user.name}?`}
         />
 
@@ -72,40 +72,16 @@ const PosterInner = ({ user }) => {
 
 
 
-      <Container className={styles.poster}>
-        <Input
-          ref={contentRef}
-          className={styles.input}
-          placeholder={` kategorisi `}
-          ariaLabel={`iş veya ürün ilanı ver, `}
-        />
-
-      </Container>
+    
 
 
 
 
 
 
-      <Container className={styles.poster}>
-        <Input
-          ref={contentRef}
-          className={styles.input}
-          placeholder={` fiyatı, `}
-          ariaLabel={`iş veya ürün ilanı ver,`}
-        />
-
-      </Container>
+  
       
-      <Container className={styles.poster}>
-        <Input 
-          ref={contentRef}
-          className={styles.input}
-          placeholder={` Açıklama`}
-          ariaLabel={`iş veya ürün ilanı ver, ${user.name}?`}
-        />
-
-      </Container>
+    
       
       
     </form></div>
