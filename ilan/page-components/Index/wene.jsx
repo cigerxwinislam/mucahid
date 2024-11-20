@@ -9,33 +9,33 @@ import mmwene from '../../public/images.jpeg';
 import mmal from '../../public/mmal.png'
 
 import mmkargeh from '../../public/kargeh.jpeg'
+import Mwene from '@/components/Card';
 function Wene() {
   return (
     <Carousel>
-      <Carousel.Item>
-        <Image text="First slide" src={mmkargeh}/>
-        <Carousel.Caption>
-          <h3>İş ilanları</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+      <Carousel.Item>  
+      <Mwene nav="Arabalar " wene="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBe0lV8LpOoyStij_2yTRfXYuu4uLtkzZzl_GB_sPGbqWb4oQsIwp22sW7&s=10"/>
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={mmwene} />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+      
+       <Mwene nav="İş İlanları" />
       </Carousel.Item>
       <Carousel.Item>
 
-        <Image text="Evler"  src={mmal}  />
-        <Carousel.Caption>
-          <h3>Evler</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+      <Mwene nav="Evler" wene="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwuaKa8s-uVM_IwEHhxOm_S9IEIzx7TXsGn0hgOYyQkXqzMSPyXw_RvkU&s=10"/>
       </Carousel.Item>
+      <Carousel.Item>
+
+<Mwene/>
+</Carousel.Item>
+
+
+
+
+<Carousel.Item>
+
+<Mwene/>
+</Carousel.Item>
     </Carousel>
   );
 }
