@@ -2,16 +2,14 @@ import { ButtonLink } from '@/components/Button';
 import { Container, Spacer, Wrapper } from '@/components/Layout';
 import Link from 'next/link';
 import styles from './Hero.module.css';
+import Wene from './wene';
 
 const Hero = () => {
   return (
     <Wrapper>
       <div>
-        <h1 className={styles.title}>
-          <span className={styles.nextjs}>İş </span>
-          <span className={styles.mongodb}>İlanı</span>
-          <span>Ver</span>
-        </h1>
+      
+      <Wene/>
         <Container justifyContent="center" className={styles.buttons}>
           <Container>
             <Link passHref href="/feed">
