@@ -1,4 +1,4 @@
-//
+//Bismillahirrahmanirrahim
 
 
 
@@ -53,7 +53,7 @@ const PosterInner = ({ user }) => {
         <Input
           ref={contentRef}
           className={styles.input}
-          placeholder={` Yayınlamak istediğin ilanın adı,`}
+          placeholder={` Yayınlamak istediğin ilanın adı, özellikleri ve açıklaması`}
           ariaLabel={`iş veya ürün ilanı ver, ${user.name}?`}
         />
 
@@ -72,40 +72,16 @@ const PosterInner = ({ user }) => {
 
 
 
-      <Container className={styles.poster}>
-        <Input
-          ref={contentRef}
-          className={styles.input}
-          placeholder={` kategorisi `}
-          ariaLabel={`iş veya ürün ilanı ver, `}
-        />
-
-      </Container>
+    
 
 
 
 
 
 
-      <Container className={styles.poster}>
-        <Input
-          ref={contentRef}
-          className={styles.input}
-          placeholder={` fiyatı, `}
-          ariaLabel={`iş veya ürün ilanı ver,`}
-        />
-
-      </Container>
+  
       
-      <Container className={styles.poster}>
-        <Input 
-          ref={contentRef}
-          className={styles.input}
-          placeholder={` Açıklama`}
-          ariaLabel={`iş veya ürün ilanı ver, ${user.name}?`}
-        />
-
-      </Container>
+    
       
       
     </form></div>
@@ -121,9 +97,8 @@ const Poster = () => {
       
       <div style={{height:155}} className={styles.root}>
         <h3 className={styles.heading}>İlan Arayın</h3>
-        {loading ? (
-          <LoadingDots>Bekleyiniz..</LoadingDots>
-        ) : data?.user ? (
+        
+        
 
           <Container className={styles.poster}>
           <Input
@@ -135,24 +110,18 @@ const Poster = () => {
    <Button type="success" >
           ilan ara
         </Button>
-        </Container>        ) : (
-          <Text color="secondary">
-            ilan vermek {' '}
-            <Link href="/login" passHref>
-              <TextLink color="link" variant="highlight">
-              için   
-              </TextLink>
-            </Link>{' '}
-           üye olun
-          </Text>
-        )}
+        </Container>     
+         
+      
+         
+     
       </div>
     </Wrapper>
 <br></br>
 
     <Wrapper>
       <div className={styles.root}>
-        <h3 className={styles.heading}>Yeni ilan yayınlayın  {data.user.name}</h3>
+        <h3 className={styles.heading}>Yeni ilan yayınlayın  </h3>
         {loading ? (
           <LoadingDots>Bekleyiniz..</LoadingDots>
         ) : data?.user ? (
