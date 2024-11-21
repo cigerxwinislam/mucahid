@@ -1,15 +1,20 @@
+// Bismillahirahmanirahim
+
+
+
 import { ButtonLink } from '@/components/Button';
 import { Container, Spacer, Wrapper } from '@/components/Layout';
 import Link from 'next/link';
 import styles from './Hero.module.css';
 import Wene from './wene';
+import Mwene from './wene';
 
 const Hero = () => {
   return (
     <Wrapper>
       <div>
+      <Mwene/>
       
-      <Wene/>
         <Container justifyContent="center" className={styles.buttons}>
           <Container>
             <Link passHref href="/feed">
