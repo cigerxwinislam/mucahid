@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@lukeed/ms": "^2.0.0",
+    "ably": "^2.5.0",
     "ajv": "^8.11.0",
     "bcryptjs": "^2.4.3",
     "bootstrap": "^5.3.3",
@@ -31,6 +32,7 @@
     "passport-local": "^1.0.0",
     "react": "^18.1.0",
     "react-bootstrap": "^2.10.5",
+    "react-chat-elements": "^12.0.17",
     "react-dom": "^18.1.0",
     "react-hot-toast": "^2.2.0",
     "slug": "^5.3.0",
