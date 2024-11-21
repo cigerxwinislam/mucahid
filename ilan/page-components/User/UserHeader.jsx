@@ -1,6 +1,7 @@
 import { Avatar } from '@/components/Avatar';
 import { Container } from '@/components/Layout';
 import styles from './UserHeader.module.css';
+import { Button } from '@/components/Button';
 
 const UserHeader = ({ user }) => {
   return (
@@ -13,6 +14,8 @@ const UserHeader = ({ user }) => {
         <div className={styles.username}>@{user.username}</div>
       </h1>
       <p className={styles.bio}>{user.bio}</p>
+
+      <Button href="/mmpeyam">Mesaj yaz</Button>
     </Container>
   );
 };
