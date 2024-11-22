@@ -17,11 +17,12 @@ import toast from 'react-hot-toast';
 import styles from './Poster.module.css';
 
 import { FormSelect,Form} from 'react-bootstrap';
+import { Router, useRouter } from 'next/router';
 
 const PosterInner = ({ user }) => {
   const contentRef = useRef();
   const [isLoading, setIsLoading] = useState(false);
-
+  const router= useRouter();
   const { mutate } = usePostPages();
 
   const onSubmit = useCallback(
@@ -46,7 +47,25 @@ const PosterInner = ({ user }) => {
     },
     [mutate]
   );
+const [mmval, setmmval] = useState("")
 
+function Serxere() {
+    console.log(mmval)
+    if (mmval==1) {
+        
+        router.push('/')
+    } else if (mmval==2) {
+        router.push('/')
+
+    }
+    else if (mmval==3) {
+        router.push('/')
+
+    } else{
+
+
+    } 
+}
   return (<div>
         
     <form onSubmit={onSubmit}>
@@ -58,27 +77,30 @@ const PosterInner = ({ user }) => {
 
 
 
-<Form.Select>
+
+<Form.Select defaultValue={mmval} onChange={(e) =>setmmval(e.target.value)}
+>
+        
         <option value={1}>Sıva</option>
 
-        <option value={3}></option>
+        <option value={3}>Montalama</option>
 
-        <option value={5}></option>
+        <option value={5}>Alçı</option>
 
-        <option value={7}></option>
+        <option value={7}>Boya</option>
 
 
 
 
       </Form.Select> 
 
+      {mmval} 
 
-
-        <Button>
+        <Button >
        
       
 
-      <a >Devam</a>  
+      <a onClick={Serxere} >Devam</a>  
         </Button>
       </Container>
 
