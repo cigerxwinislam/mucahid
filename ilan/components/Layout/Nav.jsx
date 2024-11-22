@@ -13,6 +13,8 @@ import Container from './Container';
 import styles from './Nav.module.css';
 import Spacer from './Spacer';
 import Wrapper from './Wrapper';
+import Mmnav from 'pages/wesayit/mnav';
+import MmExample from 'pages/wesayit/mnav';
 
 const UserMenu = ({ user, mutate }) => {
   const menuRef = useRef();
@@ -58,12 +60,15 @@ const UserMenu = ({ user, mutate }) => {
 
   return (
     <div className={styles.user}>
-      <button
+
+
+      
+      <button href={`/user/${user.username}`}
         className={styles.trigger}
         ref={avatarRef}
         onClick={() => setVisible(!visible)}
       >
-        <Avatar size={32} username={user.username} url={user.profilePicture} />
+        <Avatar size={32} username={user.username} url={user.profilePicture}  />
       </button>
       <div
         ref={menuRef}
@@ -116,6 +121,10 @@ const Nav = () => {
           <Link href="/">
             <a className={styles.logo}>Anasayfa</a>
           </Link>
+          <Spacer axis="horizontal" size={0.25} />
+                
+               <MmExample mmnav=".."/>
+                
           <Container>
             {user ? (
               <>
@@ -139,6 +148,8 @@ const Nav = () => {
                     Üye ol 
                   </Button>
                 </Link>
+
+               
               </>
             )}
           </Container>
