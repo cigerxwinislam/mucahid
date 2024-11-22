@@ -5,9 +5,10 @@
 import PostList from '@/page-components/Feed/PostList'
 import React from 'react'
 
-function wesayit() {
+function Wesayit() {
   return (
     <div>
+
 
 <PostList/>
 
@@ -16,4 +17,4 @@ function wesayit() {
   )
 }
 
-export default wesayit
+export default Wesayit
