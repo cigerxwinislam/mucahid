@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.1",
     "@lukeed/ms": "^2.0.0",
     "ably": "^2.5.0",
     "ajv": "^8.11.0",
@@ -19,6 +20,7 @@
     "clsx": "^1.1.1",
     "connect-mongo": "^4.6.0",
     "express-session": "^1.17.3",
+    "mdb-react-ui-kit": "^9.0.0",
     "modern-normalize": "^1.1.0",
     "mongodb": "^4.7.0",
     "multer": "^1.4.5-lts.1",

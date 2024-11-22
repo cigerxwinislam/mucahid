@@ -17,7 +17,7 @@ function index() {
 <Mwene nav="Araba İlanları" derbas="/wesayit" wene="https://img-tlctv1.mncdn.com/upload/files/articles/6f9ff211-f36a-4651-bac8-2e51a9f41742.jpg"/>
 
 <br></br><br></br>
-<Mwene nav="İş İlanları" derbas="/kargeh" wene="https://www.seydisehirhaber.com/resimler/icerikler/izmir-is-ilanlari-48690.jpg"/>
+<Mwene nav="Yardımcı Arayanlar" derbas="/kargeh" wene="https://www.seydisehirhaber.com/resimler/icerikler/izmir-is-ilanlari-48690.jpg"/>
 
 </Col>
 
@@ -37,7 +37,7 @@ function index() {
 <Row>
 
 <Col>
-<Mwene nav="İnşaat İş İlanları" derbas="/kargeh" wene="https://scontent.ferz3-1.fna.fbcdn.net/v/t39.30808-6/240704253_2842612886029710_6113730401187806051_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2285d6&_nc_ohc=Uy3FpJ9zT-IQ7kNvgFWtNyC&_nc_zt=23&_nc_ht=scontent.ferz3-1.fna&_nc_gid=AMwXktKA0aeAPxQRvP7XZOg&oh=00_AYDNa0MSNxow8CS2ow1AcyUqVhrX1CdR0wp9ZA1L8PG8yA&oe=6744DD6C"/>
+<Mwene nav="İnşaat İş İlanları" derbas="/mkedkar" wene="https://scontent.ferz3-1.fna.fbcdn.net/v/t39.30808-6/240704253_2842612886029710_6113730401187806051_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2285d6&_nc_ohc=Uy3FpJ9zT-IQ7kNvgFWtNyC&_nc_zt=23&_nc_ht=scontent.ferz3-1.fna&_nc_gid=AMwXktKA0aeAPxQRvP7XZOg&oh=00_AYDNa0MSNxow8CS2ow1AcyUqVhrX1CdR0wp9ZA1L8PG8yA&oe=6744DD6C"/>
 
 <Mwene nav="Emlak" derbas="/avahi" wene="https://cdn.prod.website-files.com/62c49b398fc0704149462b71/65df1867d7dc2d3d64a5d3f3_100m2-prefabrik-ev-1.jpg"/>
 

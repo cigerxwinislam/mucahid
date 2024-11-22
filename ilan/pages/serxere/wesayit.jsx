@@ -18,7 +18,7 @@ import styles from './Poster.module.css';
 
 import { FormSelect,Form} from 'react-bootstrap';
 
-const PosterInner = ({ user },props) => {
+const PosterInner = ({ user }) => {
   const contentRef = useRef();
   const [isLoading, setIsLoading] = useState(false);
 
@@ -54,7 +54,43 @@ const PosterInner = ({ user },props) => {
 
       <Container className={styles.poster}>
         <Avatar size={40} username={user.username} url={user.profilePicture} />
-       {props.mmcih}
+      
+
+
+
+
+
+
+
+        <Form.Select>
+        <option value={1}>otomobil</option>
+
+        <option value={3}>Arazi,SUV & Pickup</option>
+
+        <option value={5}>Motosiklet</option>
+
+        <option value={7}>Minivan& Panelvan</option>
+
+<option value={9}>Ticari Araçlar</option>
+
+<option value={11}>Elektrikli Araçlar</option>
+
+<option value={13}>Deniz Araçları</option>
+
+<option value={15}>Hasarlı Araçlar</option>
+
+<option value={17}>Karavan</option>
+
+<option value={19}>Klasik Araçlar</option>
+
+<option value={21}>Hava Araçları</option>
+
+
+<option value={23}>ATV</option>
+<option value={25}>UTV</option>
+
+<option value={27}>Engelli Plakalı Araçlar</option>
+      </Form.Select>  
 
 
 
@@ -62,7 +98,7 @@ const PosterInner = ({ user },props) => {
        
       
 
-      <a href={props.mre}>Devam</a>  
+      <a >Devam</a>  
         </Button>
       </Container>
 
@@ -87,7 +123,7 @@ const PosterInner = ({ user },props) => {
   );
 };
 
-const Poster = (props) => {
+const Wesayit = () => {
   const { data, error } = useCurrentUser();
   const loading = !data && !error;
 
@@ -124,7 +160,7 @@ const Poster = (props) => {
         {loading ? (
           <LoadingDots>Bekleyiniz..</LoadingDots>
         ) : data?.user ? (
-         <div>{props.mxer}</div>
+            <PosterInner user={data.user} mre="/ilan/mal" />
         ) : (
           <Text color="secondary">
             ilan vermek {' '}
@@ -141,4 +177,9 @@ const Poster = (props) => {
     </div>  );
 };
 
-export default Poster;
+export default Wesayit;
+
+
+
+
+//Elhamdulilllahirabbülalemin

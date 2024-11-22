@@ -2,17 +2,21 @@
 
 
 
-import { Feed } from '@/page-components/Feed'
-import React from 'react'
 
-function Wesayit() {
+import Wesayit from '../serxere/wesayit'
+import React from 'react'
+<Wesayit/>
+
+function Seido() {
   return (
     <div>
-<h1>Arabalar</h1>
-<Feed/>
 
+
+
+
+<Wesayit/>
     </div>
   )
 }
 
-export default Wesayit
+export default Seido

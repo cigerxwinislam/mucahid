@@ -2,17 +2,16 @@
 
 
 
-import { Feed } from '@/page-components/Feed'
 import React from 'react'
 
-function Wesayit() {
+import Avahi from '../serxere/mal'
+function index() {
   return (
     <div>
-<h1>SATILIK VE KİRALIK EV iLANLARI</h1>
-<Feed/>
 
+      <Avahi/>
     </div>
   )
 }
 
-export default Wesayit
+export default index

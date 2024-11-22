@@ -3,14 +3,15 @@
 
 
 import { Feed } from '@/page-components/Feed'
+import Kinc from 'pages/serxere/kinc'
 import React from 'react'
 
 function Wesayit() {
   return (
     <div>
-<h1>Giyim</h1>
-<Feed/>
 
+
+<Kinc/>
     </div>
   )
 }

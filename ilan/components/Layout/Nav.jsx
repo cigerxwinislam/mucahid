@@ -78,7 +78,7 @@ const UserMenu = ({ user, mutate }) => {
 
             </Link>
 
-            <Link passHref href={`/mmpeyam/${user.username}`}>
+            <Link passHref href={"/mmpeyam/"}>
               <a className={styles.item}>Mesaj</a>
               
             </Link>

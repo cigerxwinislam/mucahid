@@ -3,7 +3,8 @@
 
 
 import { Feed } from '@/page-components/Feed'
-import Kargeh from 'pages/serxere/kargeh'
+import Kinc from 'pages/serxere/kinc'
+import Mkedkar from 'pages/serxere/mkedkar'
 import React from 'react'
 
 function Wesayit() {
@@ -11,7 +12,7 @@ function Wesayit() {
     <div>
 
 
-<Kargeh/>
+<Mkedkar/>
     </div>
   )
 }

@@ -7,7 +7,10 @@ import React from 'react'
 import { ChatItem ,MessageBox} from 'react-chat-elements'
 
 import 'react-chat-elements/dist/main.css'
-function Peyam() {
+
+
+import { Button } from 'react-chat-elements'
+function Peyam({user}) {
   return (
     <div>
 
@@ -16,7 +19,7 @@ function Peyam() {
 <ChatItem
   avatar={'https://facebook.github.io/react/img/logo.svg'}
   alt={'Reactjs'}
-  title={'Kullanıcı'}
+  title={user}
   subtitle={'Mesaj yaz'}
   date={new Date()}
   unread={0}
@@ -54,6 +57,7 @@ function Peyam() {
   type={'text'}
   text={'Tempor duis do voluptate enim duis velit veniam aute ullamco dolore duis irure.'}
 />
+;<Button text={'Gönder'} />
     </div>
   )
 }

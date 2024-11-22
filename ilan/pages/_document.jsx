@@ -1,3 +1,7 @@
+/* Bismillahirahmanirahim
+Elhamdullilahirabbülalemin
+Es-selatu vesselamu ala rasulina Muhammedin ve ala alihi ve sahbihi ecmain
+*/
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
@@ -30,3 +34,14 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+
+
+
+
+
+
+
+
+/*Allahume sali ala seyidina Muhhammedin ve ala ali ali seyyidina Muhammedin
+Elhamdullillahirabbulalemin
+*/

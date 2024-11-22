@@ -18,7 +18,7 @@ import styles from './Poster.module.css';
 
 import { FormSelect,Form} from 'react-bootstrap';
 
-const PosterInner = ({ user },props) => {
+const PosterInner = ({ user }) => {
   const contentRef = useRef();
   const [isLoading, setIsLoading] = useState(false);
 
@@ -54,7 +54,23 @@ const PosterInner = ({ user },props) => {
 
       <Container className={styles.poster}>
         <Avatar size={40} username={user.username} url={user.profilePicture} />
-       {props.mmcih}
+      
+
+
+
+<Form.Select>
+        <option value={1}>Konut</option>
+
+        <option value={3}></option>
+
+        <option value={5}></option>
+
+        <option value={7}></option>
+
+
+
+
+      </Form.Select> 
 
 
 
@@ -62,7 +78,7 @@ const PosterInner = ({ user },props) => {
        
       
 
-      <a href={props.mre}>Devam</a>  
+      <a >Devam</a>  
         </Button>
       </Container>
 
@@ -87,7 +103,7 @@ const PosterInner = ({ user },props) => {
   );
 };
 
-const Poster = (props) => {
+const Avahi = () => {
   const { data, error } = useCurrentUser();
   const loading = !data && !error;
 
@@ -124,7 +140,7 @@ const Poster = (props) => {
         {loading ? (
           <LoadingDots>Bekleyiniz..</LoadingDots>
         ) : data?.user ? (
-         <div>{props.mxer}</div>
+            <PosterInner user={data.user} mre="/ilan/mal" />
         ) : (
           <Text color="secondary">
             ilan vermek {' '}
@@ -141,4 +157,4 @@ const Poster = (props) => {
     </div>  );
 };
 
-export default Poster;
+export default Avahi;

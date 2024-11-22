@@ -15,7 +15,6 @@ const UserHeader = ({ user }) => {
       </h1>
       <p className={styles.bio}>{user.bio}</p>
 
-      <Button href="/mmpeyam">Mesaj yaz</Button>
     </Container>
   );
 };
