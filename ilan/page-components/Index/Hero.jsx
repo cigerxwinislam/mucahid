@@ -19,19 +19,12 @@ const Hero = () => {
       
         <Container justifyContent="center" className={styles.buttons}>
           <Container>
-            <Link passHref href="/feed">
-              <ButtonLink className={styles.button}>ilanlara bak</ButtonLink>
-            </Link>
+           
           </Container>
           <Spacer axis="horizontal" size={1} />
           <Container>
-            <ButtonLink
-              href="https://yekazadsoftwarecenter.vercel.app"
-              type="secondary"
-              className={styles.button}
-            >
-              Kullanım Koşulları
-            </ButtonLink>
+           
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TOH4BFsuokI?si=RaZJRG2HQjTg7rDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </Container>
         </Container>
         <p className={styles.subtitle}>

@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import { forwardRef } from 'react';
 import styles from './Input.module.css';
+import { Image } from 'react-bootstrap';
 
 const Input = forwardRef(function Input(
   {
@@ -17,6 +18,8 @@ const Input = forwardRef(function Input(
 ) {
   return (
     <div className={clsx(styles.root, className)}>
+
+      
       <label>
         {label && <div className={styles.label}>{label}</div>}
         <input
