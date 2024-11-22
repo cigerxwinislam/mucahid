@@ -2,6 +2,10 @@
 
 
 
+// Bismillahirahmanirahim
+
+
+
 import React from 'react';
 import {
   MDBBtn,
@@ -21,12 +25,12 @@ import { Button } from 'react-bootstrap';
 import Example from '@/components/ilan/mmodel';
 import { Alert } from 'react-bootstrap';
 import MDBFile from 'mdb-react-ui-kit';
-function Mavahi() {
+function Mmkinc() {
   return (
     <MDBContainer fluid>
 
       <MDBCard className='text-black m-5' style={{borderRadius: '25px'}}>
-       <Alert variant='primary'>BU KATEGORİDE SADECE EMLAKLA İLGİLİ İLAN VERİNİZ!!!</Alert>
+       <Alert variant='primary'>BU KATEGORİDE SADECE GİYİM İLE İLGİLİ İLAN VERİNİZ!!!</Alert>
         <MDBCardBody>
           <MDBRow>
             <MDBCol md='10' lg='6' className='order-2 order-lg-1 d-flex flex-column align-items-center'>
@@ -200,4 +204,4 @@ function Mavahi() {
   );
 }
 
-export default Mavahi;
+export default Mmkinc;
