@@ -2,15 +2,17 @@
 
 
 
-import { Feed } from '@/page-components/Feed'
 import Huner from 'pages/serxere/mhuner'
 import React from 'react'
-
+import Mmmhuner from 'pages/ilan/huner/mmhuner'
+import MmUncontrolledExample from '@/components/mmtabs'
 function Wesayit() {
   return (
     <div>
-<h1>Sanat ve El Sanatları</h1>
-<Huner/>
+
+<MmUncontrolledExample nav="ilanlar" mmnav="Kategorilerde ara" dil={(
+  <Huner/>)} mmmnav=" Yeni İlan Yayınla" mmmdil={(<Mmmhuner/>)}/>
+
 
     </div>
   )

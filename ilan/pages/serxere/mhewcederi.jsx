@@ -1,17 +1,17 @@
-// Bismillahirahmanirahim
+// Bismillahiharmaniarhim
 
 
 
 import PostList from '@/page-components/Feed/PostList'
 import React from 'react'
 
-function Mmhuner() {
+function Mmhewcederi() {
   return (
     <div>
 
-      <PostList/>
+        <PostList/>
     </div>
   )
 }
 
-export default Mmhuner
+export default Mmhewcederi
