@@ -156,7 +156,7 @@ const Wesayit = () => {
 
     <Wrapper>
       <div className={styles.root}>
-        <h3 className={styles.heading}>Yeni ilan yayınlayın  </h3>
+        <h3 className={styles.heading}>Yeni araba ilanı yayınlayın  </h3>
         {loading ? (
           <LoadingDots>Bekleyiniz..</LoadingDots>
         ) : data?.user ? (
