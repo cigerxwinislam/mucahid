@@ -48,7 +48,7 @@ const PosterInner = ({ user }) => {
   );
 
   return (<div>
-       <a>kategori<a/>
+       
     <form onSubmit={onSubmit}>
       
 
