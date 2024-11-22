@@ -2,14 +2,16 @@
 
 
 
-import { Feed } from '@/page-components/Feed'
+import Mmduyemin from 'pages/serxere/mmduyemin'
 import React from 'react'
-
+import MmUncontrolledExample from '@/components/mmtabs'
+import Mmmduyemin from 'pages/ilan/mmduyemin/mmduyemin'
 function Wesayit() {
   return (
     <div>
-<h1>İkinci El Eşya</h1>
-<Feed/>
+
+<MmUncontrolledExample nav="ilanlar" mmnav="Kategorilerde ara" dil={(<Mmduyemin/>)} mmmnav=" Yeni İlan Yayınla" mmmdil={(<Mmmduyemin/>)}/>
+
 
     </div>
   )

@@ -13,7 +13,8 @@ import Mmger from './mmger'
 function Seido() {
   return (
     <div>
-<MmUncontrolledExample nav="ilanlar" mmnav="Ara" mmdil={(<Mmger/>)}  mmmnav="Yeni İlan Ver" dil={(<Wesayit/>)}  />
+      
+<MmUncontrolledExample nav="ilanlar" mmnav="Kategorilerde Ara" mmdil={(<Mmger/>)}  mmmnav="Yeni İlan Ver" dil={(<Wesayit/>)}  />
 
 
 
