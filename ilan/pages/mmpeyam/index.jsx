@@ -167,15 +167,7 @@ export default function Peyam() {
         </MDBCol>
 
         <MDBCol md="6" lg="7" xl="8">
-          <MDBTypography listUnStyled>
-          
-          
-              <MDBTextArea label="Mesaj Yaz" id="textAreaExample" rows={4} />
-            
-            <MDBBtn color="info" rounded className="float-end">
-              Gönder
-            </MDBBtn>
-          </MDBTypography>
+       
         </MDBCol>
       </MDBRow>
     </MDBContainer>
