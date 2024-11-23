@@ -32,7 +32,7 @@ export default function Peyam() {
                   className="p-2 border-bottom"
                   style={{ backgroundColor: "#eee" }}
                 >
-                  <a href="#!" className="d-flex justify-content-between">
+                  <a href="/mmpeyam/mpeyam" className="d-flex justify-content-between">
                     <div className="d-flex flex-row">
                       <img
                         src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-8.webp"
@@ -96,7 +96,7 @@ export default function Peyam() {
                   </a>
                 </li>
                 <li className="p-2 border-bottom">
-                  <a href="#!" className="d-flex justify-content-between">
+                  <a href="/mmpeyam/mpeyam" className="d-flex justify-content-between">
                     <div className="d-flex flex-row">
                       <img
                         src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-3.webp"

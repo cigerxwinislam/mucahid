@@ -22,7 +22,7 @@ function MmExample(props) {
 
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title></Offcanvas.Title>
+          <Offcanvas.Title>İLAN SOHBETLERİ</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
          <Peyam/>
