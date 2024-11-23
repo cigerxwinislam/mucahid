@@ -16,15 +16,30 @@ import {
   MDBCardHeader,
 } from "mdb-react-ui-kit";
 import { Button } from "react-bootstrap";
+import { Avatar } from "@/components/Avatar";
 
 export default function Mmpeyam() {
   return (
     <MDBContainer fluid className="py-5" style={{ backgroundColor: "#eee" }}>
       <MDBRow>
         <MDBCol md="6" lg="5" xl="4" className="mb-4 mb-md-0">
-          <h5 className="font-weight-bold mb-3 text-center text-lg-start">
-            Seido
-          </h5>
+        <MDBTypography listUnStyled>
+         
+        <li className="bg-white mb-3">
+
+        <div className="pt-3">
+                        <p className="fw-bold mb-0">Seido</p>
+                        <p className="small text-muted">
+                          ......._...
+                        </p>
+
+                        
+                      </div>
+                      
+                  
+            </li>
+        
+       </MDBTypography>       
 
          
         </MDBCol>

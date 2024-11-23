@@ -2,38 +2,40 @@
 
 
 
-import React, { useState } from 'react';
-import {
-  MDBContainer,
-  MDBNavbar,
-  MDBNavbarBrand,
-  MDBNavbarToggler,
-  MDBIcon,
-  MDBNavbarNav,
-  MDBNavbarItem,
-  MDBNavbarLink,
-  MDBBtn,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
-  MDBCollapse,
-} from 'mdb-react-ui-kit';
+import React from 'react';
+import styles from './Nav.module.css'
 
-export default function Mmmnav() {
-  const [openBasic, setOpenBasic] = useState(false);
+import { Wrapper } from '@/components/Layout';
+
+import { Container,Link } from 'react-bootstrap';
+
+import { Spacer } from '@/components/Layout';
+
+
+
+function Mmmmnav () {
+ 
 
   return (
-    <MDBNavbar expand='lg' light bgColor='light'>
-     
+    <nav className={styles.nav}>
+      <Wrapper className={styles.wrapper}>
+        <Container
+          className={styles.content}
+          alignItems="center"
+          justifyContent="space-between"
+        >
          
-
-            
-
-         
+             
+                
+          <Container>
+          
 
        
-       
-    </MDBNavbar>
+          </Container>
+        </Container>
+      </Wrapper>
+    </nav>
   );
-}
+};
+
+export default Mmmmnav;

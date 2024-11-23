@@ -24,7 +24,7 @@ export default function Peyam() {
         <MDBCol md="6" lg="5" xl="4" className="mb-4 mb-md-0">
         <form className='d-flex input-group w-auto'>
             <input type='search' className='form-control' placeholder='Type query' aria-label='Search' />
-            <Button color='primary'>Search</Button>
+            <Button color='primary'>Ara</Button>
           </form>
 <br></br>
           <MDBCard>
