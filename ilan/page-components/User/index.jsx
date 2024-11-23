@@ -15,7 +15,7 @@ export const User = ({ user }) => {
     <div className={styles.root}>
       <UserHeader user={user} />
 
-      <MmUncontrolledExample mmmdil={(<MmSettingPage/>)} mmnav="Yayındaki ilanlarım (1)" mmmnav="ayarlar" mmdil={(      <UserPosts user={user}  />
+      <MmUncontrolledExample mmmdil={(<MmSettingPage/>)} mmnav="Yayındaki ilanlarım (1)" mmmnav="Ayarlar" mmdil={(      <UserPosts user={user}  />
 )}/>
 
 

@@ -83,13 +83,7 @@ const UserMenu = ({ user, mutate }) => {
 
             </Link>
 
-            <Link passHref href={"/mmpeyam/"}>
-              <a className={styles.item}>Mesaj</a>
-              
-            </Link>
-            <Link passHref href="/settings">
-              <a className={styles.item}>Ayarlar</a>
-            </Link>
+          
             <div className={styles.item} style={{ cursor: 'auto' }}>
               <Container alignItems="center">
                 <span>Tema</span>
