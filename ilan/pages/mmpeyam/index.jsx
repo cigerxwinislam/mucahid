@@ -15,16 +15,18 @@ import {
   MDBTextArea,
   MDBCardHeader,
 } from "mdb-react-ui-kit";
+import { Button } from "react-bootstrap";
 
 export default function Peyam() {
   return (
     <MDBContainer fluid className="py-5" style={{ backgroundColor: "#eee" }}>
       <MDBRow>
         <MDBCol md="6" lg="5" xl="4" className="mb-4 mb-md-0">
-          <h5 className="font-weight-bold mb-3 text-center text-lg-start">
-            İlan Sohbetleri
-          </h5>
-
+        <form className='d-flex input-group w-auto'>
+            <input type='search' className='form-control' placeholder='Type query' aria-label='Search' />
+            <Button color='primary'>Search</Button>
+          </form>
+<br></br>
           <MDBCard>
             <MDBCardBody>
               <MDBTypography listUnStyled className="mb-0">

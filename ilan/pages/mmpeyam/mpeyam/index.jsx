@@ -15,6 +15,7 @@ import {
   MDBTextArea,
   MDBCardHeader,
 } from "mdb-react-ui-kit";
+import { Button } from "react-bootstrap";
 
 export default function Mmpeyam() {
   return (
@@ -34,9 +35,9 @@ export default function Mmpeyam() {
             <li className="bg-white mb-3">
               <MDBTextArea label="Mesaj Yaz" id="textAreaExample" rows={4} />
             </li>
-            <MDBBtn color="info" rounded className="float-end">
+            <Button color="info" rounded className="float-end">
               Gönder
-            </MDBBtn>
+            </Button>
           </MDBTypography>
         </MDBCol>
       </MDBRow>

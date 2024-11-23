@@ -3,6 +3,7 @@
 
 
 import Peyam from 'pages/mmpeyam';
+import Mmmnav from 'pages/mmpeyam/mmmnav';
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
@@ -22,7 +23,7 @@ function MmExample(props) {
 
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>İLAN SOHBETLERİ</Offcanvas.Title>
+          <Offcanvas.Title><Mmmnav/> </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
          <Peyam/>
