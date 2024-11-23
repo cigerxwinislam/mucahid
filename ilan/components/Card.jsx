@@ -12,7 +12,7 @@ function Mwene(props) {
       <Card.Img variant="top" src={props.wene} />
       <Card.Body >
  
- <a href={props.derbas}>{props.nav} </a>
+ <Button variant='primary' href={props.derbas}>{props.nav} </Button>
       </Card.Body>
     </Card>
   );
