@@ -1,5 +1,7 @@
 //Elhamdülillah
 
+"use client"
+
 import { Avatar } from '@/components/Avatar';
 import { Button, ButtonLink } from '@/components/Button';
 import { ThemeSwitcher } from '@/components/ThemeSwitcher';
