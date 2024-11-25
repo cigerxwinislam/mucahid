@@ -117,7 +117,7 @@ const Nav = () => {
           </Link>
           <Spacer axis="horizontal" size={0.25} />
                 
-               <Button href="https://mmpeyamserxere.vercel.app"></Button>
+               <Button href="https://mmpeyamserxere.vercel.app">Mesajlar</Button>
                 
           <Container>
             {user ? (
