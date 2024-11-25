@@ -100,9 +100,9 @@ const SignUp = () => {
             required
           />
             <Input
-            ref={nameRef}
+            
             autoComplete="name"
-            placeholder=""
+            placeholder="Yaşınız"
             ariaLabel=""
             size="large"
             required
