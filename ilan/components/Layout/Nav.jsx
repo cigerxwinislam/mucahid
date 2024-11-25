@@ -15,6 +15,7 @@ import Spacer from './Spacer';
 import Wrapper from './Wrapper';
 import Mmnav from 'pages/wesayit/mnav';
 import MmExample from 'pages/wesayit/mnav';
+import Button from "react-bootstrap"
 
 const UserMenu = ({ user, mutate }) => {
   const menuRef = useRef();
@@ -117,7 +118,7 @@ const Nav = () => {
           </Link>
           <Spacer axis="horizontal" size={0.25} />
                 
-               <Link href="https://mmpeyamserxere.vercel.app">Mesajlar</Link>
+               <Button href="https://mmpeyamserxere.vercel.app">Mesajlar</Button>
                 
           <Container>
             {user ? (
