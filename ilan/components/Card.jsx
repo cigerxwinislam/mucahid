@@ -8,7 +8,7 @@ import Card from 'react-bootstrap/Card';
 
 function Mwene(props) {
   return (
-    <Card style={{ width: '9rem' }}>
+    <Card style={{ width: '7rem' }}>
       <Card.Img variant="top" src={props.wene} />
       <Card.Body >
  
