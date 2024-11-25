@@ -24,10 +24,16 @@ function MmExample(props) {
 
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title><iframe src='https://mmpeyamserxere.vercel.app'/> </Offcanvas.Title>
+          <Offcanvas.Title>mesaj</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-         <Peyam/>
+
+
+
+
+
+                  <iframe height="95%" src='https://mmpeyamserxere.vercel.app'/>
+
         </Offcanvas.Body>
       </Offcanvas>
     </>
