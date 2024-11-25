@@ -99,6 +99,34 @@ const SignUp = () => {
             size="large"
             required
           />
+            <Input
+            ref={nameRef}
+            autoComplete="name"
+            placeholder=""
+            ariaLabel=""
+            size="large"
+            required
+          />
+           
+  <Input
+            
+            autoComplete="name"
+            placeholder="Numara"
+            ariaLabel="Ad"
+            size="large"
+            required
+            type="number"
+          />
+
+
+  <Input
+            
+            autoComplete="name"
+            placeholder="Yaşadığınız Şehir"
+            ariaLabel="Yer"
+            size="large"
+            required
+          />
           <Spacer size={1} axis="vertical" />
           <Button
             htmlType="submit"
