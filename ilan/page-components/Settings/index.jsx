@@ -162,15 +162,15 @@ const AboutYou = ({ user, mutate }) => {
 
   return (
     <section className={styles.card}>
-      <h4 className={styles.sectionTitle}>Derbare We</h4>
+      <h4 className={styles.sectionTitle}>Hakkınızda</h4>
       <form onSubmit={onSubmit}>
-        <Input ref={usernameRef} label="Navê We" />
+        <Input ref={usernameRef} label="Adınız" />
         <Spacer size={0.5} axis="vertical" />
         <Input ref={nameRef} label="Navê We" />
         <Spacer size={0.5} axis="vertical" />
         <Textarea ref={bioRef} label="Hakkınızda " />
         <Spacer size={0.5} axis="vertical" />
-        <span className={styles.label}>Avatar ê We</span>
+        <span className={styles.label}>Avatarınız</span>
         <div className={styles.avatar}>
           <Avatar size={96} username={user.username} url={avatarHref} />
           <input
