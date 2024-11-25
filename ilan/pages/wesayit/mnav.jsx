@@ -32,7 +32,7 @@ function MmExample(props) {
 
 
 
-                  <iframe width="95" height="95%" src='https://mmpeyamserxere.vercel.app'/>
+                  <iframe  height="95%" src='https://mmpeyamserxere.vercel.app'/>
 
         </Offcanvas.Body>
       </Offcanvas>
