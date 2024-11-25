@@ -118,7 +118,7 @@ const Nav = () => {
           </Link>
           <Spacer axis="horizontal" size={0.25} />
                 
-          <MmExample nav="mesajlar"/>                
+          <MmExample mmnav="mesaj"/>                
           <Container>
             {user ? (
               <>
