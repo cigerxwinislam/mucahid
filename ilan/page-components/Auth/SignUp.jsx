@@ -102,7 +102,7 @@ const SignUp = () => {
             <Input
             
             autoComplete="name"
-            placeholder="Yaşınız"
+            placeholder="Meslek"
             ariaLabel=""
             size="large"
             required
