@@ -1,6 +1,6 @@
 // Bismillahirahmanirahim
 
-
+"use client"
 
 import Nav from '@/components/Layout/Nav';
 import Peyam from 'pages/mmpeyam';
@@ -24,7 +24,7 @@ function MmExample(props) {
 
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title><Mmmmnav/> </Offcanvas.Title>
+          <Offcanvas.Title><iframe src='https://mmpeyamserxere.vercel.app'/> </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
          <Peyam/>
