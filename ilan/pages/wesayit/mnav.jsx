@@ -3,6 +3,7 @@
 "use client"
 
 import Nav from '@/components/Layout/Nav';
+import Layout from 'pages/mmmpeyam/app/layout';
 import Peyam from 'pages/mmpeyam';
 import Mmmmnav from 'pages/mmpeyam/mmmnav';
 import { useState } from 'react';
@@ -31,9 +32,7 @@ function MmExample(props) {
 
 
 
-
-                  <iframe  height="95%" src='https://mmpeyamserxere.vercel.app'/>
-
+<Layout/>
         </Offcanvas.Body>
       </Offcanvas>
     </>
