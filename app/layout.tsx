@@ -1,3 +1,12 @@
+// Bismillahirrahmanirahim
+// This project has been cloned fromhackergpt repo
+
+
+
+
+
+
+
 import { GlobalState } from '@/components/utility/global-state';
 import { Providers } from '@/components/utility/providers';
 import type { Metadata, Viewport } from 'next';
