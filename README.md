@@ -1,19 +1,14 @@
-# PentestGPT
+# Bismillahirrahmanirahim
+# Elhamdulillahirabbulalemin
+# Esselatu vesselamu ala rasulina Muhammedin ve ala alihi ve sahbihi ecmain.
+# la havle vela quvvete illa billa ve huwe ala kulli şeyin qadirun.
 
-PentestGPT provides advanced AI and integrated tools to help security teams conduct comprehensive penetration tests effortlessly. Scan, exploit, and analyze web applications, networks, and cloud environments with ease and precision, without needing expert skills.
-
-## A Special Note of Thanks
-
-Thank you so much, [@fkesheh](https://github.com/fkesheh) and [@Fx64b](https://github.com/Fx64b), for your amazing work and dedication to this project. 
-
-Thank you for being part of the HackerAI family.
-
-## Important Note About Running PentestGPT Locally
+## Important Note About Running this clone of PentestGPT Locally
 
 The primary purpose of this GitHub repo is to show what's behind PentestGPT in order to build trust.
 
 You can run PentestGPT locally, but the plugins and more will only work with proper and complex configuration.
-
+It originally belongs Hacker AI . this clone is  for improvement.
 ## Local Quickstart
 
 Follow these steps to get your own PentestGPT instance running locally.
