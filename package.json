@@ -65,7 +65,7 @@
     "@radix-ui/react-toggle-group": "^1.1.10",
     "@radix-ui/react-tooltip": "^1.2.7",
     "@supabase/ssr": "^0.6.1",
-    "@supabase/supabase-js": "^2.49.10",
+    "@supabase/supabase-js": "^2.50.0",
     "@tabler/icons-react": "^3.34.0",
     "@tailwindcss/typography": "^0.5.16",
     "@upstash/redis": "^1.35.0",
